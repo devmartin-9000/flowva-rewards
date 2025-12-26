@@ -1,4 +1,3 @@
-```markdown
 # Flowva Rewards
 
 A React + Supabase rewards application inspired by Flowva Hub, featuring a fully functional Rewards page with user authentication, points tracking, daily streaks, referral systems, and reward redemption.
@@ -392,9 +391,6 @@ Ensure the following environment variables are set in your deployment platform:
 Also update Supabase Authentication → URL Configuration:
 - Add your production URL to "Redirect URLs"
 - Update "Site URL" to your production domain
-
-### Repository
-[Add your GitHub repository URL here]
 
 ## Future Improvements
 
