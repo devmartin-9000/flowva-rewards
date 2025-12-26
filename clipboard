@@ -1,0 +1,54 @@
+<div className="bg-sidebar rounded-xl shadow-lg md:col-span-3 lg:col-span-1">
+					<div className="flex justify-between items-center ">
+						<div className="pb-4 rounded-t-xl w-full bg-[linear-gradient(135deg,_#9013FE_0%,_#70D6FF_100%)] text-white relative overflow-hidden">
+							<div className="p-4">
+								<span className="tabsolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold">
+									Featured
+								</span>
+							</div>
+							<div className="flex items-center justify-between px-4">
+								<h3 className="text-xl font-bold relative z-2">
+									Top Tool Spotlight
+								</h3>
+								<div className="overflow-hidden relative rounded-full size-10 md:size-16">
+									<img src="./reclaim.png" alt="Top Tool Image" />
+								</div>
+							</div>
+							<h3 className="px-4 font-bold text-lg">
+								{/* TODO: Add Dynamic Top tool name */}
+								Reclaim
+							</h3>
+						</div>
+					</div>
+					<div className="p-4 flex items-start">
+						<div className="w-6 h-6 animate-pulse bg-[#eef2ff] rounded-[6px] flex items-center justify-center mr-4 flex-shrink-0 text-primary">
+							<Calendar />
+						</div>
+						<div className="flex-1">
+							<h4 className="font-semibold text-sm mb-1">
+								{/* TODO: Add Dynamic Short bio */}
+								Automate and Optimize Your Schedule
+							</h4>
+							<p className="text-sm text-gray-600">
+								{/* TODO: Add Dynamic Brief bio */}
+								Reclaim.ai is an AI-powered calendar assistant that
+								automatically schedules your tasks, meetings, and breaks to
+								boost productivity. Free to try — earn Flowva Points when you
+								sign up!
+							</p>
+						</div>
+					</div>
+					<Separator />
+					<div className="p-4">
+						<div className="px-4 py-2 flex justify-between items-center border-b-0 border-r-0 border-l-0">
+							<button className="bg-primary hover:scale-104 transform transition duration-500 text-white gap-2 flex items-center py-2 px-4 rounded-full font-semibold text-sm">
+								<FontAwesomeIcon icon={faUserPlus} />
+								Sign up
+							</button>
+							<button className="bg-[linear-gradient(45deg,#9013FE,#FF8687)] hover:scale-104 transform transition duration-500 text-white gap-2 flex items-center py-2 px-4 rounded-full font-semibold text-sm cursor-pointer">
+								<FontAwesomeIcon icon={faGift} />
+								Claim 50 pts
+							</button>
+						</div>
+					</div>
+				</div>

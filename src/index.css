@@ -124,3 +124,8 @@
     @apply bg-background text-foreground;
   }
 }
+/* Chrome, Safari, Opera */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
